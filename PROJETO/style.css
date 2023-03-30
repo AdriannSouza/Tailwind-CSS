@@ -1,0 +1,15 @@
+body {
+    /* background-color: #ECECEC; */
+}
+
+.my-carousel {
+    height: 300px;
+}
+
+.slider-btn {
+    padding: 8px;
+}
+
+.paralax {
+    background-attachment: fixed;
+}

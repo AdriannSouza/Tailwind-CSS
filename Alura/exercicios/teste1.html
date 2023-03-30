@@ -6,10 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 1</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        VastShadow: ['Vast Shadow', 'cursive']
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 <body>
-    <main class="flex justify-center">
-        <div class="name bg-gradient-to-r from-pink-300 to-slate-400 p-5 w-1/3 text-xl">
+    <main class="flex justify-center font-VastShadow">
+        <div class="name bg-gradient-to-r from-pink-300 to-slate-400 p-5 w-2/3 text-xl">
             <h1 class="font-black">Gabriela</h1>
             <p>Desenvolvedora Front-end</p>
         </div>
